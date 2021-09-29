@@ -5,9 +5,8 @@ on:
     branches:
     - develop
     - master
-  release:
-    types:
-    - created
+    tags:
+      - "v*.*.*"
 
 jobs:
   build:
